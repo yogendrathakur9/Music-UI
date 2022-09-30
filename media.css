@@ -1,0 +1,101 @@
+@media (min-width: 801px) {
+  nav i{
+    display: none !important; 
+  }
+}
+
+@media (max-width: 800px) {
+
+    body{
+        padding: 30px;
+        
+    }
+.container{
+    background-size: cover;
+}
+  nav i {
+    font-size: 25px;
+    color: white;
+  }
+.home-li{
+    display: none;
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+    width: 90%;
+    height: auto;
+ 
+
+}
+
+.hero-section h1{
+    width: 80%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    width: 80%;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.hero-section button{
+    width: 130px;
+   
+}
+.hero-section b{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* SECTION-2 */
+
+.section-2 {
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .sec-1 {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .sec-2 {
+    width: 50%;
+  }
+  
+}
+
+
+@media (max-width:425px) {
+nav{
+    width: 95%;
+}
+     nav i {
+    font-size: 15px;
+    color: white;
+   
+  }
+  nav h1{
+ font-size: 20px;
+}
+
+nav button{
+    width: 50px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.hero-section button{
+    width: 90%;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+ 
+}
+
+}
